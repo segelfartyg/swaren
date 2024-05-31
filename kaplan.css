@@ -1,0 +1,100 @@
+html, body {
+    width:100%;
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+
+    font-family: "bebas-neue-by-fontfabric", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.divider{
+    width: 100%;
+    height:2px;
+    margin:auto;
+    background:green;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    
+
+}
+
+.para {
+    font-size: 1.5rem;
+}
+
+#kaplanHeader{
+    height: 100px;
+    filter: drop-shadow(1px 1px 1px black);
+
+}
+#kaplanFrontFirst{
+    width: 300px; 
+    margin:auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+#kaplanFront{
+    width: 300px; 
+}
+
+.headers{
+    filter: drop-shadow(1px 1px 1px black);
+    width:auto;
+}
+
+#opensource{
+    height: 100px;
+}
+#esp32l2c{
+    height: 100px;
+}
+#freestl{
+    height: 100px;
+}
+#parts{
+    height:100px;
+}
+.card{
+    flex-direction: column; 
+    padding:2rem;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+    width:60%;
+    margin:auto;
+}
+#kaplanBack{
+    width: 800px;
+    position:fixed;
+    bottom: 0;
+    left:-100px;
+    transform: scaleX(-1);
+    z-index: -1; 
+    opacity: 0.05;
+}
+
+#kaplanFrontBig{
+    width: 800px;
+    position:fixed;
+    top:0;
+    right:-300px;
+    z-index: -1; 
+    opacity: 0.05;
+}
+
+@media screen and (max-width: 800px) {
+   .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   
+  }
