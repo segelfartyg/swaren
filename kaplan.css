@@ -96,5 +96,15 @@ font-style: normal;
     flex-direction: column;
     align-items: center;
    }
+   .headers{
+    width:300px;
+   }
+
+   #kaplanFrontFirst{
+    width:200px;
+   }
+   #kaplanHeader{
+    width:300px;
+   }
    
   }
